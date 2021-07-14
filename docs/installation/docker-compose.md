@@ -109,6 +109,9 @@ Pulling traefik    ... done
 Pulling watchtower ... done
 ```
 
+!!! Fail "Troubleshooting - make command not found"
+    If you get the error `bash: make: command not found` then you need to install GNU make. Run `sudo apt update` and `sudo apt install make` to install.
+
 !!! Fail "Troubleshooting - Docker Versions"
     If you get an error such as: `ERROR: Version in "./docker-compose.activemq.yml" is unsupported.`, then you need to upgrade Docker. Enter the command `make clean` before re-attempting to `make demo`.
 
