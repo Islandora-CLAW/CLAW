@@ -68,7 +68,20 @@ nav:
       # particular recipe. The ISLE documentation page was written with a 
       # 'non-technical' user in mind who wants to test. The Manual installation 
       # guides mention that users will need additional knowledge about server administration.
-      - 'Docker Compose (ISLE-DC)': 'installation/docker-compose.md'
+      - 'Docker (ISLE)':
+          - 'Introduction to ISLE': 'installation/docker-introduction.md'
+          - 'Prerequisites': 'installation/docker-prereq.md'
+          - Install Islandora:
+             - 'Installing a Demo Server': 'installation/docker-demo.md'
+             - 'Installing a Development Server': 'installation/docker-local.md'
+             - 'Installing a Staging/Production Server': 'installation/docker-custom.md'
+          - Maintaining Islandora: 
+            - 'Basic Usage': 'installation/docker-basic-usage.md'
+            - 'Maintaining Drupal': 'installation/docker-maintain-drupal.md'
+            - 'Maintaining ISLE': 'installation/docker-maintain-isle.md'
+          - 'Available Commands': 'installation/docker-available-commands.md'
+          - 'Available Configuration': 'installation/docker-available-configuration.md'
+          - 'Troubleshooting' : 'installation/docker-troubleshooting.md'
       - 'Ansible Playbook': 'installation/playbook.md'
       - Manual Installation: 
         - 'Introduction': 'installation/manual/introduction.md'
